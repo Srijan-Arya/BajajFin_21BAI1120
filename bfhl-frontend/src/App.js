@@ -17,7 +17,7 @@ function App() {
               throw new Error('Invalid JSON structure');
           }
   
-          const res = await fetch('https://your-backend-url.vercel.app/bfhl', {
+          const res = await fetch('https://vercel-sigma-blond.vercel.app/bfhl', {
               method: 'POST',
               headers: {
                   'Content-Type': 'application/json'
